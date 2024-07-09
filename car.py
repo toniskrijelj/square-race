@@ -27,7 +27,7 @@ class Car:
     def __init__(self):
         self.neural_network = self.NeuralNetwork([3, 7, 4])
         self.color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
-        self.img = pygame.image.load('Images/Sprites/car.png')
+        self.img = pygame.image.load('Images/car.png')
         self.rect = self.img.get_rect()
         self.img.fill(self.color)
         self.score = None

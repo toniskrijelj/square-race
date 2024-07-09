@@ -4,15 +4,15 @@ spawn_x = 100
 spawn_y = 450
 
 background_imgs = [
-    pygame.image.load('Images/Sprites/background.png'),
-    pygame.image.load('Images/Sprites/background2.png'),
-    pygame.image.load('Images/Sprites/background3.png'),
-    pygame.image.load('Images/Sprites/background4.png'),
-    pygame.image.load('Images/Sprites/background5.png'),
-    pygame.image.load('Images/Sprites/background6.png'),
-    pygame.image.load('Images/Sprites/background7.png'),
-    pygame.image.load('Images/Sprites/background8.png'),
-    pygame.image.load('Images/Sprites/background9.png')]
+    pygame.image.load('Images/background.png'),
+    pygame.image.load('Images/background2.png'),
+    pygame.image.load('Images/background3.png'),
+    pygame.image.load('Images/background4.png'),
+    pygame.image.load('Images/background5.png'),
+    pygame.image.load('Images/background6.png'),
+    pygame.image.load('Images/background7.png'),
+    pygame.image.load('Images/background8.png'),
+    pygame.image.load('Images/background9.png')]
 
 background_num = 0
 background_img = background_imgs[0]
